@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4A800FA-0F07-BE9E-5A6C-073C15DE7449" containerWithKeyObject="70057137-DF5C-1E9D-B29A-83BBF1420C04" localFKIndex="8EEEDA8B-DD6E-4AFD-9076-6AE610EF9F42" name="Interacciones_Topico_FK">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>8ACDD144-E493-9DA3-B0B6-5660817FC294</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<referredTableLongName>Topico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6808EDAF-45C8-A764-7FC2-D913E585627B</referredTableID>
+<keyObject>745DF35B-9D9E-BA98-C240-5E142DED1C62</keyObject>
+<referredKeyID>745DF35B-9D9E-BA98-C240-5E142DED1C62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Topico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
