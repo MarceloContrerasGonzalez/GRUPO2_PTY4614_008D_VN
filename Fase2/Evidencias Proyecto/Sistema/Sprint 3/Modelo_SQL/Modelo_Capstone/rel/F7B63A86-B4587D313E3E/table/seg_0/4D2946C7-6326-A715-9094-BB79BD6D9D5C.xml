@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D2946C7-6326-A715-9094-BB79BD6D9D5C" name="Respuesta">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>3715DAE2-04CC-388C-8E4C-64959353F0F4</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Respuesta" id="7DAB2063-118E-D828-7A26-98F6D8F6A91F">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>B882F002-A799-B88C-A6F5-5B8CB124ECBF</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mensaje_Respuesta" id="48EEAFDD-22D4-8453-C348-FFDA94D2C2B7">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>30878532-9B7B-E0B2-F807-3ED36914BD2E</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Topico_ID_Topico" id="6882AE27-0C13-E1F4-A46F-93645DA11A85">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>123FDF3B-9666-3B23-4AEC-D66C6A7634AB</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EB6F487-A662-0C57-9F8A-DEC6E27D0500" referredColumn="E55EAE63-AA04-C22C-E887-69726345E115"/>
+</associations>
+</Column>
+<Column name="Calificacion_ID_Calificacion" id="98E5AF0E-1476-42E2-A2A6-D5D0CB50F774">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>B4E2807C-C9EC-8D09-2A5A-3CEEC5AE7758</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D63F1A5-E7A0-E9EE-4C39-EA6A090D51F5" referredColumn="D9F6223F-558D-236E-9351-7988E4745B55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB0518D3-45D2-CC0A-2AFA-9390A05CA385" name="Respuesta_PK">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>1AF9E9F1-3BB7-A6E5-B71C-C3372DFC4FAC</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DAB2063-118E-D828-7A26-98F6D8F6A91F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D21E63AB-35E5-67EF-5C61-F3B7443170D6" name="Respuesta_Topico_FK">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>9BB89C1B-E1DE-C4A1-C378-F3F791D11E75</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6882AE27-0C13-E1F4-A46F-93645DA11A85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="768A0925-2FEE-A1AD-7B4A-4C1E978C5057" name="Respuesta_Calificacion_FK">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>4EC2787E-40A8-16D4-6EC4-89B92D13B5EB</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98E5AF0E-1476-42E2-A2A6-D5D0CB50F774"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
