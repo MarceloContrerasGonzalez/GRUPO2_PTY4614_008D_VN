@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EB6F487-A662-0C57-9F8A-DEC6E27D0500" containerWithKeyObject="4D2946C7-6326-A715-9094-BB79BD6D9D5C" localFKIndex="D21E63AB-35E5-67EF-5C61-F3B7443170D6" name="Respuesta_Topico_FK">
+<createdBy>shino</createdBy>
+<createdTime>2024-10-09 18:21:51 UTC</createdTime>
+<generatorID>9BB89C1B-E1DE-C4A1-C378-F3F791D11E75</generatorID>
+<ownerDesignName>Modelo_Capstone</ownerDesignName>
+<referredTableLongName>Topico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6808EDAF-45C8-A764-7FC2-D913E585627B</referredTableID>
+<keyObject>745DF35B-9D9E-BA98-C240-5E142DED1C62</keyObject>
+<referredKeyID>745DF35B-9D9E-BA98-C240-5E142DED1C62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Topico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
