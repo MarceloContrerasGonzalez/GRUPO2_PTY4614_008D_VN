@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="322D16CB-4DD8-8683-5859-56E389778DC5" mainViewID="DFD4E34B-6682-DBA0-B3EF-8D8F02AEF242">
-<createdBy>shino</createdBy>
-<createdTime>2024-10-09 18:10:36 UTC</createdTime>
-<ownerDesignName>Modelo_Capstone</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
